@@ -30,7 +30,7 @@ A command-line interface application for managing a personal movie collection. T
 3. Run the application:
 
 ```bash
-python movie_app.py
+python movie.py
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ python movie_app.py
 ### Starting the Application
 
 ```bash
-python movie_app.py
+python movie.py
 ```
 
 ### Main Menu
