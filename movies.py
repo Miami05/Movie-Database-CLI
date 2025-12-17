@@ -2,7 +2,7 @@ import movie_storage
 
 
 def menu_display():
-   """Print the interactive menu options."""
+    """Print the interactive menu options."""
     print()
     print("Menu:")
     print("0. Exit")
@@ -74,7 +74,7 @@ def main():
                 print(f"Movie {title} not found")
                 continue
             try:
-                rating = float(input("Enter the new rating: ")) 
+                rating = float(input("Enter the new rating: "))
             except ValueError:
                 print("Invalid number")
                 continue
@@ -96,5 +96,5 @@ def main():
         input("Press Enter to continue")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
